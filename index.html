@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="title">
+        <h1>Welcome to <span class="text-primary">SecureRecipe!</span></h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="images/keyword.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Got an idea of something you want to eat? </h5>
+                      <p class="card-text">Search by keyword and receive recipes with instructions on how to make them!</p>
+                      <a href="keyword.html" class="btn btn-primary stretched-link">Find your recipe by keyword</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/ingredients.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Leftover ingredients in the fridge?</h5>
+                      <p class="card-text">Get recipes based on your leftover ingredients! </p>
+                      <a href="ingredients.html" class="btn btn-primary stretched-link">Find your recipe by ingredients</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/diet.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Do you have dietary restrictions?</h5>
+                      <p class="card-text">Find recipes that are vegetarian, vegan, gluten free, and more!</p>
+                      <a href="diets.html" class="btn btn-primary stretched-link">Find your recipe by dietary restrictions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="card-bottom">
+            <div class="card-body">
+                <h5 class="card-title">... Or having trouble finding something you want to eat?</h5>
+                <p class="card-text">Explore random recipes here!</p>
+                <button onclick="getRandom()" class="btn btn-success">Find a random recipe</button>
+            </div>
+        </div>
+        <div class="output-container">
+            <div id="output"></div>
+            <div id="output2"></div>
+        </div>
+        
+    </div>
+
+    
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>

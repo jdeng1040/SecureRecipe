@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container {
+    padding-top: 40px; 
+}
+
+#card-bottom {
+    margin: 15px 0;
+}
+
+#input {
+    margin-top: 50px;
+    width: 300px;
+    height: 35px;
+}
+
+.input-container-diet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-container-diet input {
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+#search1 {
+    margin-left: 10px;
+}
+
+#clear1 {
+    margin-left: 10px;
+}
+
+.custom-select {
+    width: 100px;
+    height: 34px;
+    margin-right: 85px;
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+.output-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
